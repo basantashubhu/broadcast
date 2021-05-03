@@ -562,6 +562,6 @@ include_once 'header.php';
         var agentId = "<?php echo $_SESSION["tenant"]; ?>";
 <?php } ?>
 </script>
-<script src="<?php echo $actual_link; ?>js/loader.v2.js" data-source_path="<?= $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" ></script>
+<script src="<?php echo $actual_link; ?>js/loader.v2.js" data-source_path="https://systha.tech/meeting/" ></script>
 <?php
 include_once 'footer.php';
