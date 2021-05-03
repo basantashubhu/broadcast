@@ -20,7 +20,7 @@ if (isset($_GET['wplogin']) && isset($_GET['url'])) {
         return false;
     }
 } else {
-    $actual_link = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    $actual_link = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     $actual_link = str_replace('admin/agent.php', '', $actual_link);
 }
 
@@ -562,6 +562,6 @@ include_once 'header.php';
         var agentId = "<?php echo $_SESSION["tenant"]; ?>";
 <?php } ?>
 </script>
-<script src="<?php echo $actual_link; ?>js/loader.v2.js" data-source_path="http://127.0.0.1:8000/meeting/" ></script>
+<script src="<?php echo $actual_link; ?>js/loader.v2.js" data-source_path="<?= $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" ></script>
 <?php
 include_once 'footer.php';
