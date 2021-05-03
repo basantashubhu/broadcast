@@ -11,7 +11,7 @@
         "showEmail": false,
         "showAvatar": false
     },
-    "appWss": "http://127.0.0.1:9001/",
+    "appWss": "https://systha.tech:9001/",
     "recording": {
         "enabled": false,
         "download": false,
