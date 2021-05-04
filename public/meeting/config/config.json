@@ -13,10 +13,10 @@
     },
     "appWss": "https://systha.tech:9001/",
     "recording": {
-        "enabled": false,
-        "download": false,
+        "enabled": true,
+        "download": true,
         "saveServer": false,
-        "autoStart": false,
+        "autoStart": true,
         "screen": false,
         "oneWay": false,
         "transcode": false,
