@@ -15,7 +15,7 @@
     "recording": {
         "enabled": true,
         "download": true,
-        "saveServer": false,
+        "saveServer": true,
         "autoStart": true,
         "screen": false,
         "oneWay": false,
